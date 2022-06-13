@@ -11,7 +11,7 @@
 
 .card-newsletter {
     border-radius: 10px;
-    max-width: 30rem;
+    max-width: 60rem;
     margin: auto;
     margin-top: 3rem;   
     background-color: white;
@@ -42,17 +42,18 @@
 }
 
 .card-title {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .card-subtitle {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 0 80px;
     text-align: left;
 }
 
 .photo-padding {
     padding: 5px;
+    width: 100%;
 }
 
 .text-left  {
@@ -85,5 +86,58 @@
     left: 0;
     margin-right: 20px;
     font-size: 1.3rem;
+}
+nav {
+    background-color: blue;
+    width: 100%;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: cornflowerblue;
+}
+
+li.menu-right {
+    float: right;
+}
+
+.slider-wrapper {
+    margin: auto;
+    padding-top: 70px;
+}
+
+.slider {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.footer {
+    position: static;
+    padding: 12px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslateblue;
+    color: white;
+    text-align: center;
 }
 
