@@ -8,14 +8,14 @@
 }
 
 body {
-    max-width: 70rem;
+    max-width: 120rem;
     margin: auto;
     font-family: 'Charis SIL', serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #bdc3c7;
 }
 
 .menu {
