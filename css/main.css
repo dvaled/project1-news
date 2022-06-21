@@ -8,7 +8,7 @@
 }
 
 body {
-    max-width: 120rem;
+    max-width: 90rem;
     margin: auto;
     font-family: 'Charis SIL', serif;
     font-family: 'Montserrat', sans-serif;
@@ -24,6 +24,17 @@ body {
     padding: 10px;
     background-color: wheat;
     color: black;
+}
+
+.container {
+    max-width: 80rem;
+    margin: auto;
+    font-family: 'Charis SIL', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    background-color: white;
 }
 
 .menu a {

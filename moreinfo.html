@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ZNews</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/extra.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charis+SIL&family=Montserrat&family=Open+Sans&family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="logo-margin"><a class="active" href="index.html"><img src="image/LOGO13.png" alt="logo photo" width="150px"></a></li>  
+        </ul>
+        <ul>
+            <li><a href="news.html">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="menu-right"><a href="moreinfo.html">more info</a></li>
+        </ul>
+    </nav>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="moreinfo-card-newsletter">
+                <div class="row">
+                    <div class="col-12 moreinfo-card-header">
+                        <h1 class="card-title">Dapatkan Berita Terbaru Secepatnya.</h1>
+                    </div>
+                    <div id="text-welcome" class="col-12 moreinfo-card-body">
+                        <p class="moreinfo-card-subtitle">Znews akan mengirimkan berita-berita terbaru kepada anda. </p>
+                    </div>
+                    <div id="text-finished" class="col-12 moreinfo-card-body" style="display:none;">
+                        <p class="moreinfo-success-message"></p>
+                    </div>
+                    <div class="col-12 moreinfo-card-body">
+                        <div class="row" id="form-email">
+                            <div class="col-7">
+                                <input id="email" class="moreinfo-email-input" type="email" placeholder="Your email address...." required>
+                            </div>
+                            <div class="col-5">
+                                <button id="btn-submit" class="moreinfo-button-submit" type="submit" onclick="submitEmail()">
+                                    <strong>OK.</strong>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="text-footer">Batalkan kapan saja.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer margin-top">
+        <p>&copy; Znews 2022</p>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
